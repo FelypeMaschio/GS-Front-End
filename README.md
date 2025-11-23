@@ -6,9 +6,9 @@ Para facilitar a avaliação e o acesso ao projeto, utilize os links abaixo:
 
 | Recurso | Descrição | Link |
 | :--- | :--- | :--- |
-| **Aplicação Publicada (Deploy)** | Acesso ao frontend em produção (Vercel, Netlify, etc.). | `[Link do Vercel]` |
+| **Aplicação Publicada (Deploy)** | Acesso ao frontend em produção (Vercel). | `[Link do Vercel]` |
 | **Vídeo Explicativo (YouTube)** | Demonstração do protótipo, aplicação das Heurísticas de Nielsen e UX Writing. | `[Link do YouTube]` |
-| **Repositório Git** | Código-fonte completo do projeto. | `[Link do Repositório Git]` |
+| **Repositório Git** | Código-fonte completo do projeto. | `[https://github.com/FelypeMaschio/GS-Front-End.git]` |
 
 ---
 
