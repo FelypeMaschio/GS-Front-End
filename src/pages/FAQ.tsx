@@ -11,7 +11,7 @@ interface FAQItem {
 const faqItems: FAQItem[] = [
   {
     id: '1',
-    question: 'O que é LevelUp Work?',
+    question: 'O que é LevelUp ork?',
     answer: 'LevelUp Work é uma plataforma gamificada de aprendizagem corporativa que transforma o processo de aprendizado em uma jornada épica, com missões, desafios, recompensas e progressão de níveis.',
   },
   {
