@@ -12,7 +12,7 @@ interface Desafio {
   categoria?: string;
   dificuldade?: string;
   xp_recompensa?: number;
-  xpRecompensa?: number; // ✅ ADICIONADO: campo da API de desafios aceitos
+  xpRecompensa?: number; // ✅ ADICONADO: campo da API de desafios aceitos
 }
 
 interface Stats {
