@@ -9,7 +9,7 @@ const mockDesafios: Challenge[] = [
   {
     id: '1',
     title: 'Fundamentos de React',
-    description: 'Aprenda os conceitos básicos do React e como criar componentes reutilizáveis',
+    description: 'prenda os conceitos básicos do React e como criar componentes reutilizáveis',
     category: 'Frontend',
     difficulty: 'easy',
     xpReward: 100,
