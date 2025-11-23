@@ -60,7 +60,7 @@ export default function DashboardEmpresa() {
       } else if (error) {
         console.error('Erro ao carregar desafios:', error);
         if (!silencioso) {
-          showMessage('error', 'Err ao carregar desafios');
+          showMessage('error', 'Erro ao carregar desafios');
         }
       } else if (data) {
         setDesafios(Array.isArray(data) ? data : []);
