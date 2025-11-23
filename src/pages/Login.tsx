@@ -69,7 +69,7 @@ export default function Login({ isEmpresa }: LoginProps) {
 
       // Verificar se recebeu o ID
       if (!response.data) {
-        setError('Erro ao pocessar autenticação. Tente novamente.');
+        setError('Erro ao processar autenticação. Tente novamente.');
         setLoading(false);
         return;
       }
