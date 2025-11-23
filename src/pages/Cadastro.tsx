@@ -70,7 +70,7 @@ export default function Cadastro() {
     const { error } = await cadastroAPI.criarUsuario(usuarioForm);
 
     if (error) {
-      setMessage({ type: 'errr', text: `Erro ao cadastrar usuário: ${error}` });
+      setMessage({ type: 'error', text: `Erro ao cadastrar usuário: ${error}` });
     } else {
       setMessage({ type: 'success', text: 'Usuário cadastrado com sucesso!' });
       setUsuarioForm({ nome_usuario: '', email: '', senha: '', nm_empresa: '' });
