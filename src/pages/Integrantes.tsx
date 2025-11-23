@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Award, Code2, Database, Bot, TrendingUp, Users } from 'lucide-react';
 import type { TeamMember } from '../types';
+// Importação de React para garantir o namespace e usar React.ReactElement
+import React from 'react'; 
 
 const mockMembers: TeamMember[] = [
   {
@@ -36,8 +38,7 @@ const mockMembers: TeamMember[] = [
   },
 ];
 
-// Ícones para cada especialidade
-const roleIcons: Record<string, JSX.Element> = {
+const roleIcons: Record<string, React.ReactElement> = {
   'JAVA e ChatBot': <Bot className="w-5 h-5" />,
   'Front-End e Banco de Dados': <Code2 className="w-5 h-5" />,
   'Python e Business Intelligence': <TrendingUp className="w-5 h-5" />,
@@ -63,25 +64,6 @@ export default function Integrantes() {
       </div>
     );
   }
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.15,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6, ease: 'easeOut' },
-    },
-  };
 
   const toggleHighlight = (id: string) => {
     setHighlightedMember(prev => prev === id ? null : id);
