@@ -7,7 +7,7 @@ export default function Home() {
     {
       icon: <Zap className="w-8 h-8" />,
       title: 'Ganhe XP',
-      description: 'cumule experiência completando desafios e missões',
+      description: 'Acumule experiência completando desafios e missões',
     },
     {
       icon: <Target className="w-8 h-8" />,
